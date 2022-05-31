@@ -1,0 +1,12 @@
+# More info: https://docs.docker.com/engine/reference/builder/#dockerignore-file
+# Ignore build and test binaries.
+
+# Output of the go coverage tool, specifically when used with LiteIDE
+*.out
+
+bin/
+testbin/
+
+Dockerfile
+Makefile
+*.md

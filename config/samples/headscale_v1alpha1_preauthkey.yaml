@@ -1,0 +1,9 @@
+apiVersion: headscale.barpilot.io/v1alpha1
+kind: PreAuthKey
+metadata:
+  name: preauthkey-sample
+spec:
+  namespace: namespace-sample
+  reusable: true
+  ephemeral: true
+  duration: 1h

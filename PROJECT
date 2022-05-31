@@ -1,0 +1,34 @@
+domain: barpilot.io
+layout:
+- go.kubebuilder.io/v3
+projectName: headscale-operator
+repo: github.com/guilhem/headscale-operator
+resources:
+- api:
+    crdVersion: v1
+    namespaced: true
+  controller: true
+  domain: barpilot.io
+  group: headscale
+  kind: Server
+  path: github.com/guilhem/headscale-operator/api/v1alpha1
+  version: v1alpha1
+- api:
+    crdVersion: v1
+    namespaced: true
+  controller: true
+  domain: barpilot.io
+  group: headscale
+  kind: Namespace
+  path: github.com/guilhem/headscale-operator/api/v1alpha1
+  version: v1alpha1
+- api:
+    crdVersion: v1
+    namespaced: true
+  controller: true
+  domain: barpilot.io
+  group: headscale
+  kind: PreAuthKey
+  path: github.com/guilhem/headscale-operator/api/v1alpha1
+  version: v1alpha1
+version: "3"

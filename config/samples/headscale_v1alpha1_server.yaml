@@ -1,0 +1,7 @@
+apiVersion: headscale.barpilot.io/v1alpha1
+kind: Server
+metadata:
+  name: server-sample
+spec:
+  version: 0.15.0
+  issuer: selfsigned

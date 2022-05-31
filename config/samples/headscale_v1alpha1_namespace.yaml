@@ -1,0 +1,6 @@
+apiVersion: headscale.barpilot.io/v1alpha1
+kind: Namespace
+metadata:
+  name: namespace-sample
+spec:
+  server: server-sample

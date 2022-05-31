@@ -1,0 +1,24 @@
+# permissions for end users to edit preauthkeys.
+apiVersion: rbac.authorization.k8s.io/v1
+kind: ClusterRole
+metadata:
+  name: preauthkey-editor-role
+rules:
+- apiGroups:
+  - headscale.barpilot.io
+  resources:
+  - preauthkeys
+  verbs:
+  - create
+  - delete
+  - get
+  - list
+  - patch
+  - update
+  - watch
+- apiGroups:
+  - headscale.barpilot.io
+  resources:
+  - preauthkeys/status
+  verbs:
+  - get
