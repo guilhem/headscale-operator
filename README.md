@@ -1,10 +1,10 @@
 # headscale-operator
 
-A Kubernetes Operator to instanciate and control headscale instances.
+A Kubernetes Operator to instantiate and control headscale instances.
 
 ## Description
 
-With _headscale-operator_ you can instanciate multiple [headscale](https://github.com/juanfont/headscale) servers for multiple purpose.
+With _headscale-operator_ you can instantiate multiple [headscale](https://github.com/juanfont/headscale) servers for multiple purpose.
 
 _headscale-operator_ let you manage [_namespaces_](https://github.com/juanfont/headscale/blob/main/docs/glossary.md) and _preauthkeys_.
 
