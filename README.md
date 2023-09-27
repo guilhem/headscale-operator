@@ -18,6 +18,7 @@ You’ll need a Kubernetes cluster to run against. You can use [KIND](https://si
 1. Install Instances of Custom Resources:
 
 ```sh
+kubectl apply -f config/crd/bases/
 kubectl apply -f config/samples/
 ```
 
